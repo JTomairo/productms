@@ -11,7 +11,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Product {
 
     @Id
-    private String Id;
+    private String id;
     private String productName;
     private String productYpe;
     private Politic politic;
